@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job getting all test cases to pass! */
 const getMainHeadingText = () => {
   console.log(document.querySelector("#main-heading").textContent);
 };
@@ -39,6 +40,7 @@ const removeOldInfo = () => {
 const makeAlphabet = () => {
   const alp = document.querySelector('#alphabet')
   let num = alp.dataset.numLetters;
+  /** FEEDBACK: Here you could've also used a string! */
   const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
   for (let i = 0; i < num; i++) {
